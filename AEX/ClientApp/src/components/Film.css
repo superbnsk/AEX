@@ -1,0 +1,100 @@
+  input#title {
+    width: 350px;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+  
+  textarea#description {
+    margin-top: 10px;
+    margin-left: 0px;
+    padding: 10px;
+    padding-left: 15px;
+    height: 100px;
+    width: 350px;
+    resize: none;
+  }
+  
+  textarea:focus{
+    outline: none;
+  }
+
+  #addFilmButton {
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: royalblue;
+    color: #fff;
+  }
+
+  .film-button {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #5a5c5a;
+    color: #fff;
+  }
+
+  .film-button:hover{
+    background-color: #404041;
+  }
+
+  .actors-list, .genres-list {
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+
+  .actor-item {
+    line-height: 20px;
+    margin: 5px;
+    padding: 7.5px;
+    border-radius: 10px;
+    text-align: center;
+
+    background-color: lightgray;
+    color: #000;
+    float: left;
+  }
+  .actor-item p {
+    margin: 0;
+  }
+  .actor-item:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: gray;
+  }
+
+  .genre-item {
+    line-height: 15px;
+    margin: 5px;
+    padding: 7.5px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: lightgray;
+    color: #000;
+    float: left;
+  }
+
+  .genre-item p {
+    margin: 0;
+  }
+  .genre-item:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: gray;
+  }
+
+  .active {
+    color: #fff;
+    background-color: gray;
+  }
+
+  #attention {
+    color: red;
+  }
+  
+  #update-button:hover{
+    background-color: gray;
+    color: white;
+  }
